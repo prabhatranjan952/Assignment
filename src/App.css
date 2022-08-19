@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.headText{
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.progressBar{
+  margin-left: 37%;
+  justify-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.forms{
+  margin-top: 1%;
+  width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+} 
+
+.inputLabels{
+  float: left;
+  font-weight: 500;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.createButton{
+  width: 100%;
+  height: 40px;
+  border: none;
+  color:white;
+  border-radius: 5px;
+  background-color: rgb(102, 64, 238);
 }
 
-.App-link {
-  color: #61dafb;
+.launchEden{
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+  height: 40px;
+  border: none;
+  color:white;
+  border-radius: 5px;
+  background-color: rgb(102, 64, 238);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons{
+  color: rgb(102, 64, 238);
+}
+
+.choices{
+  border-radius: 8px;
+  background-color: white;
 }
